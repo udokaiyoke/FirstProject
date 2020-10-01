@@ -1,0 +1,44 @@
+String Concatenation
+
+**Is a way of combining multiple strings together.
+
+--> In concatenation, string takes precedence over int or double
+-->Also double takes precedence over int.
+
+****In Java and Python programming language, the plus (+) operator is overloaded
+
+-->Which means the plus operator can perform both addition and concatenation
+--> if any of the operand is a string, the + operator will perform concatenation
+-->Execution starts from the left to right..
+--> BODMAS rule is respected
+--> but if non is a string, the operator will perform the addition function
+
+--> Whenever string concatenation happens, the data type of the output will always be a string.
+
+
+-->there are Static and Dynamic programming language.
+**While static language shows you error during compiling, dynamic languages will wait till the code is ran.##
+
+e.g of Static language is Java, while that of Dynamic language is Python.
+
+
+
+***---> JAVA OPERATORS
+
+-->Operators are divided into:
+
+1 Unary Operators --> <Operators which works on one operand at a time
+++--> increment operators** increases by 1,
+-- --> decrement operator** decreases by 1,
+! --> Not operator**changes true to false or false to true
+
+2 Binary Operators --> which work on 2 operand at a time
++, -, *, /, %, ==, &&(and operator), ||(or operator), <, >, <=, >=
+
+**Equality operation (==) will return a boolean result
+
+3 Ternary Operators
+?: --
+
+
+***Static is used to call a method without needing to creat an object of that method.

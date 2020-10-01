@@ -1,0 +1,40 @@
+*** Objects are nothing but instance of the class.
+*** A single class can create any number of unique objects.
+
+***In java, an object is created when someone types the keyword "new"
+*** At each "new", a new object  of the class is created E.g: new dog(); new tree(); new student();
+
+
+***There are two data types in Java: primitive and non-primitive
+-->Examples of primitive are: int, float, double, long, short, char, byte, boolean,
+
+--> non-primitive data types are called reference types because they refer to Objects.
+
+Non-Primitive Data Types
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+*Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and
+is not defined by Java (except for String).
+*Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+*A primitive type has always a value, while non-primitive types can be null.
+*A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+*The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+*Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc. You will learn more about
+these in a later chapter.
+
+***In Java it is important to define the data type of the variable before the variable
+
+***Java heap is the memory space taken by JVM form the OS:
+
+**All Objects are created in this heap (space). Whenever JVM encounters "new" keyword,
+ it creates an object in heap.
+*** When there is no space in heap to create objects, then JVM throws "Out of memory" error.
+
+
+***Garbage Collection is the mechanism provided by JVM; to clean out the Heap, so that new objects can  be created.
+***It destroys the objects which are "not in use" or eligible for "garbage collection".
+*** Any object is said to be eligible for garbage collection (GC) if there is no "Reference Variable" attached to it
+**So what is a "Reference Variable"???
+

@@ -1,0 +1,45 @@
+**Topics to be treated:
+--Basics of Java
+--Data Types in Java
+--String and String Handling
+--Operators
+--If/Else/For/While/Do-While/For each
+--Array
+--OOPS (Intropackage Oriented Programming)
+--Exception Handling
+--Collections
+--File Handling (Excel File Reading/Writing)
+
+
+
+Definitions:
+Java is basically a High Level, Platform independent programming language which works on principles of
+OBJECT ORIENTATION.
+
+By 'High Level' it means an attempt to make the programming language as close as possible to a normal language
+like English.The progression was from Hardware --> Machine Language --> Assembly Language --> High Level Language.
+
+N.B Check up Machine Language and Assembly Language.
+
+
+By Platform Independence : Means it can be run on multiple platforms (Operating Systems). So if one writes a java code
+in a windows OS,the code can be compiled and ran  on a linux OS, Unix OS or MaC OS e.t.c. But it should be kept in mind that
+all those OS must have Java installed in them.
+
+
+By Intropackage Orientation: we mean that in everything we do, we use objects.
+
+
+Identifiers: are legal names of Java components. Java components can be:
+--> Variable,
+--> Classes,
+--> Methods,
+--> Interfaces and constants
+
+Rule for Naming Identifiers:
+--> Java 'reserved' keyword cannot be used as an identifier e.g public, static, void, main e.t.c
+--> First character of an Identifier should be a alphabetic character (a to z), dollar symbol ($) or
+Connection character (_)
+(any number  or special character is not permitted)
+--> After first character, other characters can be combination of $,_,(a to z),(0 to 9)
+--> Special characters are not permitted at any case

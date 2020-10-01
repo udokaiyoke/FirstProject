@@ -1,0 +1,27 @@
+** In Java everything has to follow the order:
+Intropackage Oriented-->Classes-->Methods-->Variables
+
+** Access modifiers --> public, protected, private, default
+
+**With classes, only two access modifiers are allowed or used namely:
+--> public
+--> default
+
+N.B. KISS Means keep it simply simple
+
+**What is the major difference between public and default:
+
+Public--> It will be accessible everywhere in the project
+Default--> It will be accessible only inside the package where that component has been defined
+
+***In a source file, we can create multiple number of classes, however only one will be allowed to be public.
+***Also there can be multiple non-public classes.
+***It is also not mandatory that we have public classes in a source file
+***The source file name must correspond with the public class file name
+
+
+***A Java class can be defined as a template or blueprint which describes state/ behaviour of its object.
+
+in other words, class is used to create Objects.
+
+

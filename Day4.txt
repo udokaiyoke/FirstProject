@@ -1,0 +1,17 @@
+Java String and String Concatenation
+**In Java "String" is a class and not a datatype and it can be instantiated like other classes
+
+String s = new String (),
+
+**String Concatenation is basically a way to combine two or more strings into a single string. This is done by using '+'
+operator.
+
+String s = "We" + "are" + "learning" + "java" + "."
+
+**String values can be concatenated with any other datatype.
+
+boolean b = true
+string s = "this is" + " " + b
+
+**Strings are immutable in Java, meaning that once they are defined, they can't be changed.
+
